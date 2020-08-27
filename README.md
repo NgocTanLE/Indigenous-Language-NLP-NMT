@@ -1,4 +1,4 @@
-# <b>Low-Resource NMT: an Empirical Study on the Effect of Rich Morphological Word Segmentation on Inuktitut </b> 
+# Low-Resource NMT: an Empirical Study on the Effect of Rich Morphological Word Segmentation on Inuktitut 
 
 # Authors: Ngoc Tan Le and Fatiha Sadat
 
