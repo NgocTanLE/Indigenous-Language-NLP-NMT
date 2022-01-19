@@ -1,8 +1,10 @@
 # Indigenous Rich Morphological Word Segmentation: a study case on Inuktitut and Inuinnaqtun
 Citations: 
-Le, T. N., & Sadat, F. (2020, October). Low-Resource NMT: an Empirical Study on the Effect of Rich Morphological Word Segmentation on Inuktitut. In Proceedings of the 14th Conference of the Association for Machine Translation in the Americas (AMTA 2020) (pp. 165-172). Link: https://amtaweb.org/category/amta-2020/
+* Ngoc Tan Le, F Sadat. (2021, June). _Towards a First Automatic Unsupervised Morphological Segmentation for Inuinnaqtun_. Proceedings of the First Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP), co-located with the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT 2021), online in Mexico City, Mexico, June 6-11, 2021 (pp. 159-162).
+* Le, T. N., & Sadat, F. (2020, October). _Low-Resource NMT: an Empirical Study on the Effect of Rich Morphological Word Segmentation on Inuktitut_. In Proceedings of the 14th Conference of the Association for Machine Translation in the Americas (AMTA 2020) (pp. 165-172). Link: https://amtaweb.org/category/amta-2020/
 
-This research paper focuses on Inuktitut and Inuinnaqtun, both Indigenous polysynthetic languages spoken in Northern Canada and the development of a Neural Machine Translation (NMT) for Inuktitut-English. 
+**Main Goal**:
+Our research papers focus on Inuktitut and Inuinnaqtun, both Indigenous polysynthetic languages spoken in Northern Canada and the development of a Neural Machine Translation (NMT) for Indigenous Language-English. 
 The main objective and motivation of this project is the revitalization and preservation of Indigenous languages and cultural heritage through major tasks in NLP.
 
 # Corpora from Nunavut Hansard version 3 : Inuktitut-English
