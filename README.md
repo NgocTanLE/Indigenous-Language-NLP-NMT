@@ -40,7 +40,7 @@ Composition of Inuit word = **Word base** + Lexical suffixes + Grammatical endin
 **Citation**: Farley, B. (2012). The uqailaut project. Link: http://www.inuktitutcomputing.ca/Uqailaut/
 
 ## RichWordSegmenter toolkit
-**Citation**: Yang, J., Zhang, Y., and Dong, F. (2017).  Neural word segmentation with rich pretraining.  InProceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),  pages 839–849,  Vancouver,  Canada. Association for Computational Linguistics. Link: https://github.com/jiesutd/RichWordSegmentor
+**Citation**: Yang, J., Zhang, Y., and Dong, F. (2017).  Neural word segmentation with rich pretraining.  In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),  pages 839–849,  Vancouver,  Canada. Association for Computational Linguistics. Link: https://github.com/jiesutd/RichWordSegmentor
 
 ## Adaptor Grammars-based unsupervised morphological segmentation model
 **Citation**:  Eskander R., Klavans J. L., Muresan S., “Unsupervised Morphological Segmentation for Low-Resource Polysynthetic Languages”, Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology, p. 189-195, 2019.
