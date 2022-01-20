@@ -43,7 +43,7 @@ Composition of Inuit word = **Word base** + Lexical suffixes + Grammatical endin
 **Citation**: Yang, J., Zhang, Y., and Dong, F. (2017).  Neural word segmentation with rich pretraining.  InProceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),  pages 839–849,  Vancouver,  Canada. Association for Computational Linguistics. Link: https://github.com/jiesutd/RichWordSegmentor
 
 ## Adaptor Grammars-based unsupervised morphological segmentation model
-**Citation**:  Eskander R., Klavans J. L., Muresan S., “Unsupervised Morphological Segmentation for Low- Resource Polysynthetic Languages”, Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology, p. 189-195, 2019.
+**Citation**:  Eskander R., Klavans J. L., Muresan S., “Unsupervised Morphological Segmentation for Low-Resource Polysynthetic Languages”, Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology, p. 189-195, 2019.
 
 * Learning hyperparameters are configured as in Eskander et al. (2019) according to the best standard PrefixStemSuffix+SuffixMorph grammar (Table 1) and the best scholar-seeded grammar (Table 2)
 <img align="center" width="510" alt="Table1-AG-standard-gram" src="https://user-images.githubusercontent.com/9386104/150231474-f4da42b6-6263-4c2e-850e-2c214c30bd62.png">
