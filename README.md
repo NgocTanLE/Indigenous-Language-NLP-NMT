@@ -52,7 +52,7 @@ Composition of Inuit word = **Word base** + Lexical suffixes + Grammatical endin
 
 <hr>
 * How to use the MorphAGram framework ? (Credit: Eskander et al., 2019)
-[MorphAGram-README.pdf](https://github.com/NgocTanLE/Indigenous-Language-NLP-NMT/files/7908311/MorphAGram-README.pdf)
+https://github.com/NgocTanLE/Indigenous-Language-NLP-NMT/blob/master/scripts/MorphAGram-README.pdf
 <hr>
 
 # Marian-NMT toolkit
