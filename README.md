@@ -51,7 +51,7 @@ Composition of Inuit word = **Word base** + Lexical suffixes + Grammatical endin
 <img width="489" alt="Table2-AG-scholar-seed-gram" src="https://user-images.githubusercontent.com/9386104/150231478-dd1100f7-32b8-468a-9435-651fcb53ec27.png">
 
 <hr>
-* How to use the MorphAGram framework ? (Credit: Eskander et al., 2019)
+* How to use the MorphAGram framework ? (Credit: Eskander et al., 2019) <br>
 https://github.com/NgocTanLE/Indigenous-Language-NLP-NMT/blob/master/scripts/MorphAGram-README.pdf
 <hr>
 
