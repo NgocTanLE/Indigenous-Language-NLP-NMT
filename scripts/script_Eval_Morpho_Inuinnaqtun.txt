@@ -1,0 +1,169 @@
+## sys_baseline_Standard_out_test_50iter.txt
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p sys_baseline_Standard_out_test_50iter.txt
+# Gold standard file: test_gold.txt
+# Predictions file  : sys_baseline_Standard_out_test_50iter.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.00s
+
+precision: 0.507575757576
+recall   : 0.827272727273
+fmeasure : 0.629140439583
+
+## syst2_Scholar_out_20_test_50iter.txt : 3k data
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p syst2_Scholar_out_20_test_50iter.txt
+# Gold standard file: test_gold.txt
+# Predictions file  : syst2_Scholar_out_20_test_50iter.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.00s
+
+precision: 0.710606060606
+recall   : 0.80303030303
+fmeasure : 0.753996420663
+
+
+## syst4_Scholar_out_test_50iter_4kdata.txt : 4k data
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p syst4_Scholar_out_test_50iter_4kdata.txt
+# Gold standard file: test_gold.txt
+# Predictions file  : syst4_Scholar_out_test_50iter_4kdata.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.00s
+
+precision: 0.827272727273
+recall   : 0.812121212121
+fmeasure : 0.819626953453
+
+
+
+###########################
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p syst1_Scholar_out_20_test.txt 
+# Gold standard file: test_gold.txt
+# Predictions file  : syst1_Scholar_out_20_test.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.03s
+
+precision: 0.574242424242
+recall   : 0.381818181818
+fmeasure : 0.458665898286
+
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p syst2_Scholar_out_20_test_50iter.txt
+# Gold standard file: test_gold.txt
+# Predictions file  : syst2_Scholar_out_20_test_50iter.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.04s
+
+precision: 0.710606060606
+recall   : 0.80303030303
+fmeasure : 0.753996420663
+
+
+# syst 2 - scholar 
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p syst2_Scholar_out_20_test_100iter.txt
+# Gold standard file: test_gold.txt
+# Predictions file  : syst2_Scholar_out_20_test_100iter.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.00s
+
+precision: 0.909090909091
+recall   : 0.830303030303
+fmeasure : 0.86791257523
+
+
+
+#### EMMA -2
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python EMMA2.py -g test_gold.txt -p syst1_Scholar_out_20_test.txt -v
+
+
+Calculation of performance measures
+===================================
+
+precision (p) = p count / word count = 51.4666666667 / 55 = 0.935757575758
+recall    (r) = r count / word count = 32.5 / 55 = 0.590909090909
+f-measure (f) = 2 * p * r / (p + r)  = 0.724385578693
+
+RESULT:
+=======
+gold standard: test_gold.txt
+prediction   : syst1_Scholar_out_20_test.txt
+evaluation time: 0.03s
+
+precision: 0.935757575758
+recall   : 0.590909090909
+fmeasure : 0.724385578693
+
+
+##
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python EMMA2.py -g test_gold.txt -p syst2_Scholar_out_20_test_100iter.txt -v
+
+
+Calculation of performance measures
+===================================
+
+precision (p) = p count / word count = 55.0 / 55 = 1.0
+recall    (r) = r count / word count = 48.4166666667 / 55 = 0.880303030303
+f-measure (f) = 2 * p * r / (p + r)  = 0.936341659952
+
+RESULT:
+=======
+gold standard: test_gold.txt
+prediction   : syst2_Scholar_out_20_test_100iter.txt
+evaluation time: 0.02s
+
+precision: 1.0
+recall   : 0.880303030303
+fmeasure : 0.936341659952
+
+### baseline 
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python bpr.py -g test_gold.txt -p baseline_Std_out_test.txt
+# Gold standard file: test_gold.txt
+# Predictions file  : baseline_Std_out_test.txt
+# Evaluation options:
+# - best local matching of alternative analyses
+# Recall based on 55 words
+# Precision based on 55 words
+# Evaluation time: 0.00s
+
+precision: 0.827272727273
+recall   : 0.245454545455
+fmeasure : 0.378582434515
+
+### emma-2 
+
+(my_env_3) tanle@ubuntu:~/Downloads/Evaluation_Morpho$ python EMMA2.py -g test_gold.txt -p baseline_Std_out_test.txt
+rm: cannot remove 'baseline_Std_out_test.txt.temp.lpInput.10035': No such file or directory
+rm: cannot remove 'baseline_Std_out_test.txt.temp.lpOutput.10035': No such file or directory
+rm: cannot remove 'baseline_Std_out_test.txt.temp.lpInput.10035': No such file or directory
+rm: cannot remove 'baseline_Std_out_test.txt.temp.lpOutput.10035': No such file or directory
+
+RESULT:
+=======
+gold standard: test_gold.txt
+prediction   : baseline_Std_out_test.txt
+evaluation time: 0.02s
+
+precision: 0.992727272727
+recall   : 0.339393939394
+fmeasure : 0.505848291836
